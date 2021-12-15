@@ -9,7 +9,11 @@ const Menu = ({ menuItem }) => {
           <ItemContainer>
             <ItemWrapper>
               <img src={item.image} alt={item.alt} />
-              <h2>{item.title}</h2>
+              <h2>
+                <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">
+                  {item.title}
+                </a>
+              </h2>
               <p>{item.description}</p>
             </ItemWrapper>
           </ItemContainer>
@@ -54,6 +58,10 @@ const ItemWrapper = styled.div`
     font-size: 2rem;
     font-weight: 200;
     margin: 1rem 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
     :hover {
       cursor: pointer;
       transition: all 0.1s ease-in-out;
