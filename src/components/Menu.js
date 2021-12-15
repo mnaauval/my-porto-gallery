@@ -42,8 +42,8 @@ const ItemContainer = styled.div`
   width: 100%;
   padding: 1.2rem;
   background-color: #19202e;
-  @media only screen and (max-width: 991px) {
-    padding: 0.8rem;
+  @media only screen and (max-width: 768px) {
+    padding: 0.6rem;
   }
 `;
 
