@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import styled from "styled-components";
+import Button from "./components/Button";
+import Menu from "./components/Menu";
+import items from "./data";
+
+const setCategories = ["All", ...new Set(items.map((item) => item.category))];
 
 function App() {
+  const [menuItem, setMenuItem] = useState(items);
+  const [buttons] = useState(setCategories);
+
+  const clicktoFilter = (btnCategory) => {
+    if (btnCategory === "All") {
+      setMenuItem(items);
+      return;
+    }
+    const filteredCategory = items.filter((item) => item.category === btnCategory);
+    setMenuItem(filteredCategory);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <Title>
+        <h1>
+          Portofolio <span>Gallery</span>
+        </h1>
+      </Title>
+      <Button buttons={buttons} clicktoFilter={clicktoFilter} />
+      <Menu menuItem={menuItem} />
+    </AppContainer>
   );
 }
 
 export default App;
+
+const AppContainer = styled.div`
+  padding: 0 10rem;
+  @media only screen and (max-width: 991px) {
+    padding: 0 1rem;
+  }
+`;
+
+const Title = styled.div`
+  padding: 2rem 0;
+  text-align: center;
+  h1 {
+    font-size: 3rem;
+  }
+  span {
+    color: #037fff;
+  }
+`;
