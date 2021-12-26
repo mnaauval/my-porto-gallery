@@ -53,6 +53,7 @@ const ItemWrapper = styled.div`
   overflow: hidden;
   img {
     width: 100%;
+    max-height: 300px;
     transition: all 0.1s ease-in-out;
     :hover {
       transform: scale(1.1);

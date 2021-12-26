@@ -5,43 +5,44 @@ import blog4 from "./assets/images/4.png";
 import blog5 from "./assets/images/5.png";
 import blog6 from "./assets/images/6.png";
 import blog7 from "./assets/images/7.png";
+import blog8 from "./assets/images/8.jpeg";
 
 // eslint-disable-next-line
 export default [
   {
     id: 1,
-    image: blog1,
-    title: "Helloe's Pizza",
+    image: blog8,
+    title: "Cafe Merdeka",
     category: "React",
     alt: "React",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
-    url: "https://pizza-website-six.vercel.app/",
+    description: "Menu Website for Merdeka Cafe in Nganjuk. Project collaboration with https://github.com/mars-area",
+    url: "https://caffemerdeka.com/",
   },
   {
     id: 2,
     image: blog2,
-    title: "Cryptocurrency Price Tracker with API using Axios",
+    title: "Cryptocurrency Price Tracker",
     category: "React",
     alt: "React",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    description: "Cryptocurrency Price Tracker with Coin Gecko API using Axios",
     url: "https://crypto-api-one.vercel.app/",
   },
   {
     id: 3,
     image: blog3,
-    title: "Personal Page with Bootstrap 5",
+    title: "Personal Page",
     category: "HTML CSS",
     alt: "HTML CSS",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    description: "Personal Page Website with Bootstrap 5",
     url: "https://nauval-eka.vercel.app/",
   },
   {
     id: 4,
     image: blog4,
-    title: "Company Profile with Materialize ",
+    title: "Addtitle",
     category: "HTML CSS",
     alt: "HTML CSS",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    description: "Company Profile Website with Materialize",
     url: "https://addtitle-compro.vercel.app/",
   },
   {
@@ -50,16 +51,16 @@ export default [
     title: "TRVLIA Website",
     category: "React",
     alt: "React",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    description: "ADVENTURE AWAITS - What are you waiting for ?",
     url: "https://vacation-app-eight.vercel.app/",
   },
   {
     id: 6,
     image: blog6,
-    title: "Personal Page with Full Page JS",
+    title: "HELLO",
     category: "HTML CSS",
     alt: "HTML CSS",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    description: "Personal Page Website using Bootstrap 5 and Full Page JS Library",
     url: "https://fullpage-porto.vercel.app/",
   },
   {
@@ -68,7 +69,16 @@ export default [
     title: "Pizza Hot",
     category: "React",
     alt: "React",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!",
+    description: "WE BRING GOOD PIZZA READY IN A MINUTE",
     url: "https://pizza-time-xi.vercel.app/",
+  },
+  {
+    id: 8,
+    image: blog1,
+    title: "Helloe's Pizzeria",
+    category: "React",
+    alt: "React",
+    description: "PIZZA TO FIT ANY TASTE",
+    url: "https://pizza-website-six.vercel.app/",
   },
 ];
