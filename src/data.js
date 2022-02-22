@@ -6,9 +6,19 @@ import blog5 from "./assets/images/5.png";
 import blog6 from "./assets/images/6.png";
 import blog7 from "./assets/images/7.png";
 import blog8 from "./assets/images/8.jpeg";
+import blog9 from "./assets/images/9.png";
 
 // eslint-disable-next-line
 export default [
+  {
+    id: 9,
+    image: blog9,
+    title: "Storial",
+    category: "React",
+    alt: "React",
+    description: "Website for free books to read online",
+    url: "https://storial-app.vercel.app/",
+  },
   {
     id: 1,
     image: blog8,
