@@ -5,7 +5,7 @@ import blog4 from "./assets/images/4.png";
 import blog5 from "./assets/images/5.png";
 import blog6 from "./assets/images/6.png";
 import blog7 from "./assets/images/7.png";
-import blog8 from "./assets/images/8.jpeg";
+import blog8 from "./assets/images/8.png";
 import blog9 from "./assets/images/9.png";
 
 // eslint-disable-next-line
@@ -25,7 +25,7 @@ export default [
     title: "Cafe Merdeka",
     category: "React",
     alt: "React",
-    description: "Menu Website for Merdeka Cafe in Nganjuk. Project collaboration with https://github.com/mars-area",
+    description: "Menu Website for Merdeka Cafe in Nganjuk. Project collaboration with https://github.com/mars-area (mobile view for better experiences)",
     url: "https://caffemerdeka.com/",
   },
   {
