@@ -7,16 +7,26 @@ import blog6 from "./assets/images/6.png";
 import blog7 from "./assets/images/7.png";
 import blog8 from "./assets/images/8.png";
 import blog9 from "./assets/images/9.png";
+import blog10 from "./assets/images/10.png";
 
 // eslint-disable-next-line
 export default [
+  {
+    id: 10,
+    image: blog10,
+    title: "Fourty Shop",
+    category: "React",
+    alt: "React",
+    description: "E-commerce website using redux-toolkit, tailwindcss and express",
+    url: "https://fourty-shop.web.app/",
+  },
   {
     id: 9,
     image: blog9,
     title: "Storial",
     category: "React",
     alt: "React",
-    description: "Website for free books to read online",
+    description: "Website for free books to read online using using redux-toolkit and tailwindcss",
     url: "https://storial-app.vercel.app/",
   },
   {
@@ -61,7 +71,7 @@ export default [
     title: "TRVLIA Website",
     category: "React",
     alt: "React",
-    description: "ADVENTURE AWAITS - What are you waiting for ?",
+    description: "ADVENTURE AWAITS - What are you waiting for ? ",
     url: "https://vacation-app-eight.vercel.app/",
   },
   {
