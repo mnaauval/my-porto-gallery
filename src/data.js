@@ -14,7 +14,7 @@ import blog11 from "./assets/images/11.png";
 export default [
   {
     id: 11,
-    image: blog10,
+    image: blog11,
     title: "Looseley Fitted Shop",
     category: "React",
     alt: "React",
