@@ -8,9 +8,19 @@ import blog7 from "./assets/images/7.png";
 import blog8 from "./assets/images/8.png";
 import blog9 from "./assets/images/9.png";
 import blog10 from "./assets/images/10.png";
+import blog11 from "./assets/images/11.png";
 
 // eslint-disable-next-line
 export default [
+  {
+    id: 11,
+    image: blog10,
+    title: "Looseley Fitted Shop",
+    category: "React",
+    alt: "React",
+    description: "Fashion e-commerce website UI",
+    url: "https://fourty-shop.web.app/",
+  },
   {
     id: 10,
     image: blog10,
